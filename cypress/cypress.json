@@ -1,0 +1,28 @@
+{
+    "defaultCommandTimeout": 60000,
+    "pageLoadTimeout": 60000,
+    "requestTimeout": 60000,
+    "env": {
+        "baseUrl": "http://localhost",
+        "apiBaseUrl": "http://api.localhost",
+        "plansApp": "/app/plans/index.html#/",
+        "providersApp": "/app/providers/index.html#/",
+        "managementPortal": "/app/managementportal/index.html#/"
+    },
+    "watchForFileChanges": false,
+    "viewportWidth": 1000,
+    "viewportHeight": 960,
+    "chromeWebSecurity": false,
+    "fixturesFolder": "cypress/fixtures",
+    "videoUploadOnPasses": false,
+    "videoCompression": 32,
+    "video": true,
+    "trashAssetsBeforeRuns": true,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportDir": "cypress/reports/separate-reports",
+        "overwrite": false,
+        "html": false,
+        "json": true
+    }
+}
