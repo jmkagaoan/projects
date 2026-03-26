@@ -3,4 +3,5 @@ package-lock.json
 /cypress/reports
 /cypress/videos
 /cypress/screenshots
-/cypress/integration/examples
+/cypress/e2e/examples
+/cypress-image-diff-html-report/
