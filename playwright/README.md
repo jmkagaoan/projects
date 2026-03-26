@@ -18,7 +18,8 @@
 6. playwright config
 7. videos
 8. screenshots
-9. github actions
+9. ci github actions
 
 ### To Try
 1. Playwright agents
+2. Playwright MCP

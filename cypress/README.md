@@ -12,3 +12,4 @@
 6. visual testing [cypress-image-diff](https://github.com/haim-io/cypress-image-diff)
 7. screenshots
 8. videos
+9. ci github actions

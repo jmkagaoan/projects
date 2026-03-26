@@ -16,7 +16,7 @@ describe('I am able to register', () => {
         it('should be able to register successfully', () => {
             cy.get('@normalUser').then((normalUser) => {
                 RegistrationPage.registration(
-                    normalUser.username,
+                    normalUser.username + Math.floor(Math.random() * 1000), // Ensure unique username
                     normalUser.password
                 );
             });
